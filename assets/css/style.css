@@ -325,3 +325,35 @@ footer a {
     height: 10em;
   }
 }
+
+@media print {
+	body {
+		font-size: 2em;
+		padding: 0;
+		background-image: none;
+	}
+
+	main {
+		box-shadow: none;
+		margin: 0;
+	}
+
+	thead tr {
+		color: black;
+	}
+
+	thead tr,
+	tbody tr {
+		border-bottom: 1px solid grey;
+	}
+
+	header,
+	article section,
+	iframe,
+	aside,
+	footer,
+	.social,
+	.toTop {
+		display: none;
+	}
+}
