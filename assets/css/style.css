@@ -259,6 +259,30 @@ footer a {
 /* Media queries 1200px */
 
 @media screen and (min-width: 1200px) {
+  header {
+    padding: 5px;
+    vertical-align: middle;
+  }
+  header div {
+    display: inline-block;
+    width: 70%;
+    vertical-align: middle;
+    text-align: left;
+    padding: 5px;
+  }
+  header nav {
+    display: inline-block;
+    width: 20%;
+  }
+
+  header div img {
+    width: 160px;
+    height: 60px;
+    text-align: left;
+    vertical-align: middle;
+    margin-bottom: 0;
+  }
+
   #tableContainer {
     width: 80%;
     margin: 0 auto;
@@ -275,7 +299,6 @@ footer a {
     height: 14em;
     border-radius: 30px;
     margin-bottom: 2em;
-    margin-left: 0 auto;
   }
 
   section h2 {
